@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31c1ed3b-f73b-4a71-89af-4ebd36494f6f" name="Default Changelist" comment="" />
+    <list default="true" id="31c1ed3b-f73b-4a71-89af-4ebd36494f6f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/images/car02.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kYbRnzcitIMywUnhOaM6MYqXtl" />
   <component name="ProjectViewState">
@@ -15,6 +20,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.cargame">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -105,5 +111,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1242" height="59" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605892037246" />
+    <state x="229" y="70" key="SettingsEditor" timestamp="1605908104916">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="229" y="70" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1605908104916" />
   </component>
 </project>
