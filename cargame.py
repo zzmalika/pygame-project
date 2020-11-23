@@ -64,6 +64,10 @@ def collision(x, y,x_width, y_height,  x_1, y_1, x_1_width, y_1_height ):
 
     return first_rectangular.colliderect(second_rectangular)
 
+def coin_counter():
+    screen.blit(image_coin_counter, (20, 20))
+
+
 blocks = []
 coins = []
 
@@ -88,7 +92,7 @@ while not done:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             done = True
-   
+
     if pygame.key.get_pressed()[pygame.K_LEFT]:
         if 0 < car.x < 98:
             car.x += left_right_speed_change
@@ -165,8 +169,6 @@ while not done:
             blocks.remove(block_i)
             num_of_obstacles = []
 
-        
-        
     
     for coin in coins:
         screen.blit(image_coin, (coin.x, coin.y))
@@ -183,12 +185,12 @@ while not done:
 
             coins.remove(coin)
 
-    
 
     road_speed += road_speed_change
     
 
         
+
 
 
     pygame.display.flip()
